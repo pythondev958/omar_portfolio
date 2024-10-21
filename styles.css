@@ -3,13 +3,14 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 header {
-    background: #007BFF;
-    color: #fff;
-    padding: 10px 20px;
+    background: #000000;
+    color: #ffffff;
+    padding: 20px;
     text-align: center;
 }
 
@@ -17,27 +18,32 @@ header h1 {
     margin: 0;
 }
 
-header p {
-    margin: 5px 0;
+header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
 }
 
 main {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background: #fff;
+    background: #f4f4f4;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-    color: #007BFF;
+    color: #000000;
     margin-top: 20px;
 }
 
 h3 {
     margin-top: 15px;
-    color: #0056b3;
+    color: #333333;
 }
 
 ul {
@@ -48,15 +54,15 @@ ul {
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #007BFF;
-    color: #fff;
+    background: #000000;
+    color: #ffffff;
     position: relative;
     bottom: 0;
     width: 100%;
 }
 
 a {
-    color: #0056b3;
+    color: #000000;
     text-decoration: none;
 }
 
